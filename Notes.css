@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap");
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "poppins",sans-serif;
+    margin: 0;
+    background-color: #7bdaf3;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.note{
+    margin: 20px;
+    background-color: aliceblue;
+    height: 300px;
+    width: 300px;
+}
+.tool{
+    background-color: burlywood;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+.note .tool button{
+    background-color: transparent;
+    border: none;
+    color: aliceblue;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+
+}
+.note .main{
+    background-color: aliceblue;
+    width: 100%;
+    height: 300px;
+  
+    overflow: hidden;
+}
+.note textarea{
+    outline: none;
+    width: 100%;
+    height: 300px;
+    border: none;
+    font-family: inherit;
+    font-size: 1.2rem;
+}
+.note .hidden{
+    display: none;
+}
+.add{
+    background-color: burlywood;
+    color: aliceblue;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 2rem auto;
+    border-radius: 3px;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    
+}
